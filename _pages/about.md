@@ -24,10 +24,3 @@ I hold a **Dual Degree (B.Tech., M.Tech.) in Electrical Engineering** from **IIT
 During my Master's Thesis, I proposed **ModSR**, a modular CNN framework for fast and adaptive super-resolution under real-world settings. I also wrote a paper for a journal that got rejected.
 
 ---
-
-## Getting Started (For Visitors)
-
-You can explore my work using the tabs above:
-* **Publications:** Find the paper presented orally at **CVPR 2024** and the accepted paper at **EMBC 2022**.
-* **CV/About:** See a breakdown of my full academic and professional history.
-* **Projects:** View details on my research and academic work like Super Resolution with Modular Adapters and HDR Imaging with Deep Learning.
