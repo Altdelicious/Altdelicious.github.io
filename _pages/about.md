@@ -21,6 +21,6 @@ I hold a **Dual Degree (B.Tech., M.Tech.) in Electrical Engineering** from **IIT
 
 During my Master's Thesis, I proposed **ModSR**, a modular CNN framework for fast and adaptive super-resolution under real-world settings. I also wrote a paper for a journal that was rejected.
 
-Outside of work, I love playing Tennis, reading, and learning new card tricks
+Outside of work, I love playing Tennis, reading, and learning new card tricks.
 
 ---
