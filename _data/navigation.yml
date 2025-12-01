@@ -14,6 +14,10 @@ main:
         
   #- title: "Blog Posts"
   #  url: /year-archive/
+
+  - title: "Photos"
+    url: /gallery/
+
     
   - title: "CV"
     url: /files/CV.pdf
