@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Photos · Bhavesh Garg</title>
+  <meta name="description" content="Photos of doors I've found.">
+  <link rel="icon" href="../images/favicon.ico">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Newsreader:opsz,wght@6..72,400;6..72,500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../assets/css/site.css">
+</head>
+<body>
+
+<nav class="nav">
+  <div class="wrap">
+    <a class="brand" href="../index.html">Bhavesh Garg</a>
+    <ul>
+      <li><a href="../index.html#research">Research</a></li>
+      <li><a href="../index.html#projects">Projects</a></li>
+      <li class="opt"><a href="../index.html#education">Education</a></li>
+      <li class="opt"><a href="../index.html#experience">Experience</a></li>
+      <li><a href="index.html" aria-current="page">Photos</a></li>
+      <li><a href="../files/CV.pdf">CV</a></li>
+    </ul>
+  </div>
+</nav>
+
+<main class="wrap">
+  <section>
+    <h2>Photos</h2>
+    <p class="section-intro">I like taking photos of amazing doors. Here are some of my discoveries.</p>
+    <div class="gallery">
+      <button data-full="../assets/img/photos/IMG_1117.jpg"><img src="../assets/img/photos/IMG_1117-sm.jpg" alt="Door" loading="lazy"></button>
+      <button data-full="../assets/img/photos/IMG_1180.jpg"><img src="../assets/img/photos/IMG_1180-sm.jpg" alt="Door" loading="lazy"></button>
+      <button data-full="../assets/img/photos/IMG_1183.jpg"><img src="../assets/img/photos/IMG_1183-sm.jpg" alt="Door" loading="lazy"></button>
+      <button data-full="../assets/img/photos/IMG_1195.jpg"><img src="../assets/img/photos/IMG_1195-sm.jpg" alt="Door" loading="lazy"></button>
+      <button data-full="../assets/img/photos/IMG_1198.jpg"><img src="../assets/img/photos/IMG_1198-sm.jpg" alt="Door" loading="lazy"></button>
+      <button data-full="../assets/img/photos/IMG_1200.jpg"><img src="../assets/img/photos/IMG_1200-sm.jpg" alt="Door" loading="lazy"></button>
+      <button data-full="../assets/img/photos/IMG_1205.jpg"><img src="../assets/img/photos/IMG_1205-sm.jpg" alt="Door" loading="lazy"></button>
+      <button data-full="../assets/img/photos/IMG_3383.jpg"><img src="../assets/img/photos/IMG_3383-sm.jpg" alt="Door" loading="lazy"></button>
+      <button data-full="../assets/img/photos/IMG_3765.jpg"><img src="../assets/img/photos/IMG_3765-sm.jpg" alt="Door" loading="lazy"></button>
+    </div>
+  </section>
+</main>
+
+<dialog class="lightbox"><img alt="Door, full size"></dialog>
+
+<footer>
+  <div class="wrap">
+    <span>© 2026 Bhavesh Garg · <a href="mailto:bh05avesh@gmail.com">bh05avesh@gmail.com</a></span>
+  </div>
+</footer>
+
+<script>
+  const box = document.querySelector('.lightbox');
+  const big = box.querySelector('img');
+  document.querySelectorAll('.gallery button').forEach(b => b.addEventListener('click', () => {
+    big.src = b.dataset.full;
+    box.showModal();
+  }));
+  box.addEventListener('click', () => box.close());
+</script>
+</body>
+</html>
